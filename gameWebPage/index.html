@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="stylesheet" href="main.css">
+    <link rel="icon" type="image/x=icon" href="/images/icon.jpeg">
+    <title>FAR</title>
+</head>
+<body>
+    <div class="topbar">
+        <a class="links" onclick="changePage(5)">FAR</a>
+        <div class="dropdown"> 
+            <a id="bro">Updates</a>
+            <div class="drop">
+                <a onclick="changePage(1)">Updates</a><br>
+                <a onclick="changePage(1)">Release</a><br>
+                <a onclick="changePage(1)">Bugs</a><br>
+                <a onclick="changePage(1)">Beta Testing</a><br>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a id="gamu">Games</a>
+                <div class="drop">
+                    <a onclick="changePage(2)">Far</a><br>
+                    <a onclick="changePage(2)">Near</a><br>
+                    <a onclick="changePage(2)">Close</a>
+                </div>
+        </div>
+        <div class="dropdown">
+            <a id="ppl">Contributors</a>
+                <div class="drop">
+                    <a onclick="changePage(3)">Patreon</a><br>
+                    <a onclick="changePage(3)">Voice Actors</a><br>
+                    <a></a>
+                </div>
+        </div>
+        <div class="dropdown">
+            <a id="contact">Contact Us</a>
+                <div class="drop">
+                    <a onclick="changePage(4)">Contact Us</a><br>
+                    <a onclick="changePage(4)">FAQ</a><br>
+                    <a onclick="changePage(4)">Socials</a>
+                </div>
+        </div>
+    </div>
+    <div id="mainscreen">
+        <img src="images/tagstudio.jpg" id="floatingpicsbackleft">
+        <button id="left" onclick="changeImageBothLeft()"><</button>
+        <img src="images/hands.jpeg" id="floatingpics">
+        <button id="right" onclick="changeImageBothRight()">></button>
+        <img src="images/adrielEndmarry.jpg" id="floatingpicsbackright">
+    </div>
+    <div id="updatescreen">
+            <p class="titles">UPDATES</p>
+            <p class="updates">List of random stufff</p>
+            <p class="updates">Website update 0.4 added some more stuff.</p>
+            <br><br><br>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/bs9T_lz8JFc?si=1bQCokbSuO7PvJrK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <p class="titles">RELEASE</p>
+            <p class="updates">Version 1.0 is expected to be released by 2029-2030. <br></p>
+            <p class="updates">It will be the full game and in 3d mainly for PC players and the console version will be launched maybe 6 months after the initial release.<br></p>
+            <p class="updates">The demo is to be released around the first half of 2027.<br>It will be a simple 2d web based demo so that anyone who has access to browsers can play it even on mobile. <br> The trailer will launch about a month or two before the demo release.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/h76p_jt6wWg?si=xhmoWJXmViLwUsDL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <p class="titles">BETA TESTING</p>
+            <p class="updates">The beta testing of the full game will be open for submissions on January 3rd 2027. <br> I have about 20-30 slots not reserved so if you would like to get a slot before the submissons are open email me from the contacts page.</p>
+            <p class="updates">There will be a list of what you need to have to qualify for a slot. Although the qualification is meant for content creators I will allow anyone to get a slot if they email me.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/c6MW-qdNoYA?si=UCKYGDKxPYIMRp90" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    </div>
+    <div id="gamesscreen">
+        <p class="titles">FAR</p>
+        <p class="updates">Its our first game that is currently in production.</p>
+        <p class="updates"> The rest just concepts of a part of a larger trilogy which may or may not be realized soon.</p>
+    </div>
+    <div id="contributorsscreen">
+        <p class="titles">PATREON</p>
+        <p class="updates">Where you can support the creator and get special announcements that arent for the public.</p>
+        <p class="updates">You can even get access to game codes for special rewards or mod powers sometimes.</p>
+        <p class="updates"><a href="https://www.patreon.com/cw/ogs6647"> Link to the Patreon</a></p>
+        <p class="titles">VOICE ACTORS</p>
+        <p class="updates">He is the narrators voice please do not harass him hes too kawaii.</p>
+        <p class="updates"><a href="https://www.instagram.com/asa.williams_?stkn=OGzc3hrMTQ3cmtv">Narrator</a></p>
+    </div>
+    <div id="supportscreen">
+        <p class="titles">CONTACT US</p>
+        <p class="updates">Email IS ONLY for bussiness. (Fan mail will be tolerated but I have socials meant for that.)</p>  
+        <p class="titles">SOCIALS</p>
+        <p class="updates"><a href="https://x.com/farofficialgame">Twitter</a> <br> <a href="https://www-fallback.instagram.com/yand3lan/">Instagram</a> <br> <a href="https://www.twitch.tv/ghost_from_vt">Twitch</a> <br> <a href="https://discord.gg/yourserver">Discord Server</a></p>
+        <p class="titles">FAQ</p>
+        <p class="updates"> They will be added once people ask more lol.</p>
+    </div>
+<script src="main.js"></script>
+</body>
+</html>

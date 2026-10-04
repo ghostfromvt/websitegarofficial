@@ -1,0 +1,151 @@
+p{
+    color: rgb(210, 210, 216);
+    background-color: black;
+}
+body{
+    background-color: #0b022c;
+    padding: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    overflow-x: hidden;
+}
+.links{
+    color: white;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 20px;
+    font-size: xx-large;
+
+}
+.drop{
+    display: none;
+    color: white;
+}
+.topbar{
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    gap: 100px;
+    background-color: black;
+    margin: 0px;
+    padding-top: 0px;
+    top: 0px;
+    width: 100vw;
+}
+.topbar > *:not(:first-child){
+    padding-top: 30px;
+}
+.dropdown{
+    background-color: black;
+    margin: 0px;
+    padding-bottom: 50px;
+}
+#bro{
+    color: white;
+    font-size: x-large; 
+}
+#gamu{
+    color: white;
+    font-size: x-large;
+}
+#ppl{
+    color: white;
+    font-size: x-large;
+}
+.dropdown:hover .drop{
+display: block;
+}
+#contact{
+    color: white;
+    font-size: x-large;
+}
+@keyframes floatingmove {
+    0%{transform: rotateY(0deg);}
+    25%{transform: rotateY(90deg) ;}
+    50%{transform: rotateY(180deg);}
+    75%{transform: rotateY(270deg);}
+    100%{transform: rotateY(360deg);}
+}
+#floatingpics{
+    height: 500px;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    animation: floatingmove 10s ease-in-out infinite;
+    overflow: hidden;
+}
+#floatingpicsbackright{
+    top: 25%;
+    right: 25%;
+    height: 500px;
+    position: absolute;
+    z-index: -9;
+    filter: blur(50px) brightness(0.3);
+}
+#floatingpicsbackleft{
+    top: 25%;
+    left: 25%;
+    height: 500px;
+    position: absolute;
+    z-index: -8;
+    filter: blur(10px) brightness(0.5);
+}
+#left{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    color: white;
+    background-color: black;
+    font-size: xx-large;
+    border-radius: 100px;
+}
+#right{
+    position: absolute;
+    top: 50%;
+    right: 25%;
+    color: white;
+    background-color: black;
+    font-size: xx-large;
+    border-radius: 100px;
+}
+#right:hover{
+    color: blue;
+}
+#left:hover{
+    color: blue;
+}
+#mainscreen{
+    display: block;
+}
+#updatescreen{
+    display: none;
+    color: white;
+    padding-top: 100px;
+    padding-left: 20%;
+    z-index: -20;
+}
+#gamesscreen{
+    display: none;
+    padding-top: 100px;
+    padding-left: 20%;
+}
+#contributorsscreen{
+    display: none;
+    padding-top: 100px;
+    padding-left: 20%;
+}
+#supportscreen{
+    display: none;
+    padding-top: 100px;
+    padding-left: 20%;
+}
+.updates{
+    color: white;
+    background-color: #0b022c;
+}
+.titles{
+    color: white;
+    font-size: xx-large;
+    background-color: #0b022c;
+}
